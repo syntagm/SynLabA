@@ -34,11 +34,13 @@
 
     <!-- <content src="http://mysite.com/myapp.html" /> for external pages -->
     <content src="index.html" />
-	<icon src="icon.png" />
+	<!--<icon src="icon.png" /> -->
 	
-	<!-- <icon src="res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />	
-	<gap:splash src="res/screen/android/screen-hdpi-landscape.png" gap:platform="android" gap:density="mdpi" /> -->
-	
+	<icon src="res/icon/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
+	<icon src="res/icon/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
+	<icon src="res/icon/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
+	<icon src="res/icon/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+	 
 	<!-- Multiplatform -->
 	<preference name="phonegap-version" value="2.9.0" />
 	
