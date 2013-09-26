@@ -17,7 +17,8 @@
  specific language governing permissions and limitations
  under the License.
 -->
-<widget xmlns     = "http://www.w3.org/ns/widgets"
+<widget xmlns     = "http://www.w3.org/ns/widgets" 
+		xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "za.co.syntagm.synlaba"
         version   = "2.0.2">
     <name>Syngenta Etiket Portefeulje</name>
@@ -36,11 +37,7 @@
     <content src="index.html" />
 	<!--<icon src="icon.png" /> -->
 	
-	<icon src="res/icon/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
-	<icon src="res/icon/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
-	<icon src="res/icon/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
-	<icon src="res/icon/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
-	 
+		 
 	<!-- Multiplatform -->
 	<preference name="phonegap-version" value="2.9.0" />
 	
@@ -63,4 +60,12 @@
     <feature name="LocalStorage">
         <param name="ios-package" value="CDVLocalStorage"/>
     </feature>
+	
+	 <!-- Define app icon for each platform. -->
+    <icon src="icon.png" />
+    <icon src="res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />
+    <icon src="res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />
+    <icon src="res/icon/android/icon-72-hdpi.png" gap:platform="android" gap:density="hdpi" />
+    <icon src="res/icon/android/icon-96-xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+	
 </widget>
