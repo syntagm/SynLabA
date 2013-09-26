@@ -19,7 +19,7 @@
 -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         id        = "za.co.syntagm.synlaba"
-        version   = "2.0.0">
+        version   = "2.0.2">
     <name>Syngenta Etiket Portefeulje</name>
 
     <description>
@@ -34,10 +34,9 @@
 
     <!-- <content src="http://mysite.com/myapp.html" /> for external pages -->
     <content src="index.html" />
-	<icon src="icon.png" />
+	<!-- <icon src="icon.png" /> -->
 	
-	<icon src="res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />
-	
+	<icon src="res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />	
 	<gap:splash src="res/screen/android/screen-hdpi-landscape.png" gap:platform="android" gap:density="mdpi" />
 	
 	<!-- Multiplatform -->
