@@ -61,11 +61,16 @@
         <param name="ios-package" value="CDVLocalStorage"/>
     </feature>
 	
-	 <!-- Define app icon for each platform. -->
+	 <!-- Define app icon and splash screen for each platform. xmlns:gap = "http://phonegap.com/ns/1.0" above critically important -->
     <icon src="icon.png" />
     <icon src="res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />
     <icon src="res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />
     <icon src="res/icon/android/icon-72-hdpi.png" gap:platform="android" gap:density="hdpi" />
     <icon src="res/icon/android/icon-96-xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+	
+	<gap:splash src="splash/android/ldpi.png" gap:platform="android" gap:density="ldpi" /> 
+	<gap:splash src="splash/android/mdpi.png" gap:platform="android" gap:density="mdpi" /> 
+	<gap:splash src="splash/android/hdpi.png" gap:platform="android" gap:density="hdpi" /> 
+	<gap:splash src="splash/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
 	
 </widget>
